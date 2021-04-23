@@ -1,0 +1,175 @@
+body {
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	font-family: Roboto;
+}
+
+.page {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-areas: "side presentation"
+                       "side presentation"
+                       "side presentation";
+
+  grid-template-rows: auto;
+  grid-template-columns: 30% auto;
+}
+
+
+.side {
+	grid-area: side;
+	background-color: #323232;
+	color: #7D7D7D;
+	padding: 10px;
+}
+
+.side img {
+	width: 150px;
+	border-radius: 100px;
+	margin-left: calc((100% - 150px)/2);
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+i { 
+	margin-left: 20px;
+	margin-right: 20px; 
+	color: #fbfbfb;
+}
+
+i#dot {
+	margin-left: -7px;
+	margin-right: 0px; 
+	color: #7D7D7D;
+}
+
+i#dot-none {
+	margin-left: -7px;
+	margin-right: 0px; 
+	color: #D3D3D3;
+}
+
+.side p { display: inline-block; }
+
+.date {
+	display: inline-block;
+}
+
+.name {
+	font-size: 50px;
+	font-weight: 900;
+	padding: 40px;
+}
+
+.category .title {
+	font-size: 25px;
+	font-weight: 600;
+	margin-left: 40px;
+	color: #fcfcfc;
+	padding-left: 10px;
+	line-height: 50px;
+	background-color: #323232;
+	width: calc(100% - 90px);
+}
+
+.category .content {
+	margin-top: -30px;
+	grid-area: content;
+	padding: 40px;
+}
+
+.category .content h2 { 
+	font-size: 20px; 
+}
+
+.subtitle {
+	font-size: 25px;
+	font-weight: 600;
+}
+
+.subtitle-side {
+	font-size: 25px;
+	margin-left: 20px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.skill {
+	margin-left: 30px;
+}
+
+img.icon {
+	display: inline;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 20px;
+	margin-top: 10px;
+	border-radius: 0px;
+	width: 32px;
+	float: left;
+}
+
+img.lieu {
+	display: inline;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0px;
+	margin-right: 20px;
+	margin-top: 10px;
+	border-radius: 0px;
+	width: 64px;
+	float: left;
+}
+
+img.diplome {
+	display: inline;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0px;
+	margin-right: 20px;
+	margin-top: 10px;
+	border-radius: 0px;
+	width: 32px;
+	float: left;
+}
+
+img.bitmoji {
+	display: inline;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0px;
+	margin-top: 20px;
+	border-radius: 0px;
+	width: 230px;
+	float: right;
+}
+
+img.capture {
+	display: inline;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 10px;
+	width: 250px;
+	float: right;
+}
+
+.description {
+	font-style: italic;
+	color: #777777;
+}
+
+.git {
+	text-decoration: none;
+	color: #5C6BC0;
+	margin-top: 20px;
+	font-size: 20px; 
+}
+
+.git:hover {
+	filter: brightness(1);
+}
